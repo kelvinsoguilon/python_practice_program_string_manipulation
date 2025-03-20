@@ -6,3 +6,4 @@ character_count = 0
 for char in fullname:
     character_count += 1
 #print result
+print(character_count)

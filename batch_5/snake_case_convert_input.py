@@ -5,3 +5,4 @@ lowercased_fullname = fullname.lower()
 #change spaces to underscore
 snake_case = lowercased_fullname.replace(" ", "_")
 #print result
+print(snake_case)

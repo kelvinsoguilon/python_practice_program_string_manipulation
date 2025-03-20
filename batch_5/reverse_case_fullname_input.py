@@ -5,3 +5,4 @@ reversed_case = [char.upper() if char.islower() else char.lower() for char in fu
 #join words into one string
 fullname_reversed = "".join(reversed_case)
 #print result
+print(fullname_reversed)

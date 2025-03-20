@@ -7,4 +7,7 @@ capitalized_letter = fullname.split()
 #capitalize the first letters of each word
 proper_case = [word.capitalize() for word in capitalized_letter]
 #remove the spaces
+for char in proper_case:
+    if char != " ":
+        pascal_case += char
 #print result in pascal casing

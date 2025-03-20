@@ -5,3 +5,4 @@ statement_parts = statement.split()
 #count number of words
 word_count = len(statement_parts)
 #print result
+print(word_count)

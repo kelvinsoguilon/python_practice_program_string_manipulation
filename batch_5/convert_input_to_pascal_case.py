@@ -11,3 +11,4 @@ for char in proper_case:
     if char != " ":
         pascal_case += char
 #print result in pascal casing
+print(pascal_case)

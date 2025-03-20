@@ -7,3 +7,4 @@ capitalized_letter = [word.capitalize() for word in name_parts]
 #put words back in a single string
 proper_casing = " ".join(capitalized_letter)
 #print output
+print(proper_casing)
